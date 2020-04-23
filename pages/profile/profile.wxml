@@ -1,0 +1,16 @@
+<view class="avatar">
+  <button wx:if="{{userInfo === null}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">微信登录</button>
+  <image wx:else src="{{userInfo.avatarUrl}}"></image>
+</view>
+
+<view class="cells">
+  <navigator class="item">个人资料</navigator>
+  <navigator class="item">我的优惠券</navigator>
+  <view class="divider"></view>
+  <navigator class="item">常见问题</navigator>
+  <navigator class="item">使用条款</navigator>
+  <navigator class="item">隐私权政策</navigator>
+  <navigator class="item">联系客服</navigator>
+  <view class="divider"></view>
+  <navigator url="/pages/settings/settings" class="item">设置</navigator>
+</view>

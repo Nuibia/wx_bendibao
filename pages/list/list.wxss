@@ -1,0 +1,35 @@
+.search{
+    display: flex;
+    margin: 10rpx;
+    line-height: 60rpx;
+    justify-content: space-around;
+    align-items: center;
+    border: 3rpx solid #ccc;
+    border-radius: 30rpx;
+}
+.search icon{
+    font-size: 30rpx;
+}
+.cells{
+    display: flex;
+    flex-direction: column;
+}
+.cells .item {
+    padding: 10rpx;
+    display: flex;
+}
+.cells .item image{
+    width: 300rpx;
+    height: 300rpx;
+    flex: 1;
+}
+.cells .item .meta{
+    flex: 1;
+    font-size: 28rpx;
+    padding-left: 10rpx;
+    display: flex;
+    flex-direction: column;
+}
+.cells .item .meta text{
+    line-height: 40rpx;
+}

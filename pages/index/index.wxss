@@ -1,0 +1,51 @@
+.slides {
+    height: 380rpx;
+}
+
+.slides navigator,
+.slides image {
+    width: 100%;
+    height: 100%;
+}
+
+.girds {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 28rpx;
+    background-color: #fff;
+    border-left: 1rpx solid #eee;
+    border-bottom: 1rpx solid #eee;
+}
+
+.girds .item {
+    display: flex;
+    width: 33.333333333333%;
+    height: 250rpx;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1rpx solid #eee;
+    border-top: 1rpx solid #eee;
+    box-sizing: border-box;
+}
+
+.girds .item image {
+    width: 70rpx;
+    height: 70rpx;
+}
+
+.girds .item text {
+    color: #888;
+    margin-top: 20rpx;
+    display: block;
+
+}
+
+.links {
+    display: flex;
+}
+
+.links image {
+    padding-left: 10rpx;
+    height: 150rpx;
+}
